@@ -3,7 +3,6 @@
 const YearTable = props => {
 
     console.log('YearTable', props);
-    props.list = groupBy(refineList(props.list),'year', 'asc');
     return (
         <div>
             <h2>Year Table</h2>

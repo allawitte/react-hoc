@@ -1,7 +1,7 @@
 'use strict';
 
 const SortTable = props => {
-    props.list = groupBy(props.list,'', 'desc');
+    //props.list = groupBy(props.list,'', 'desc');
     console.log('SortTable', props);
 
     return (
